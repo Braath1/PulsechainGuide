@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.metamask-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: auto; /* Adjust the height as per your requirements */
+    margin: 5rem 0 2rem 0;
+  }
+  
+  .metamask-content {
+    text-align: center; /* Centers the text within the container */
+    max-width: 800px; /* Adjust the max-width as per your requirements */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+  }
+  
+  .content {
+    padding: 10px 0;
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+
+  .btn {
+    width: 300px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(210deg, #00eaff 0%, #0080ff 25%, #8000ff 50%, #e619e6 75%, #f00 100%);;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn:hover {
+    background: lightblue;
+  }
+
+  .btn-move {
+    position: relative;
+    left: 10rem;
+    bottom: 5rem;
+  }
+
+  /* Mobile-friendly styles */
+@media screen and (max-width: 768px) {
+    .metamask-content {
+      padding: 10px;
+      max-width: 90%; /* Adjust the max-width as per your requirements */
+    }
+  }
+  

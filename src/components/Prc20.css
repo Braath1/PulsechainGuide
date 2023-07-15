@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.move {
+    position: relative;
+    top: 17.5rem;
+}
+
+.metamask-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: auto; /* Adjust the height as per your requirements */
+    margin: 5rem 0 2rem 0;
+  }
+  
+  .metamask-content {
+    text-align: center; /* Centers the text within the container */
+    max-width: 800px; /* Adjust the max-width as per your requirements */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+  }
+  
+  .content {
+    padding: 10px 0;
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+  
+
+  /* Mobile-friendly styles */
+@media screen and (max-width: 768px) {
+    .metamask-content {
+      padding: 10px;
+      max-width: 90%; /* Adjust the max-width as per your requirements */
+    }
+  }
+  

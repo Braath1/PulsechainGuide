@@ -1,0 +1,350 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .logo img {
+    margin-left: 5rem;
+    width: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+    position: relative;
+    left: 10rem;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 50px;
+  }
+  
+  .nav-links a {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .nav-links a:hover {
+    color: #ffca08;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+
+  .gem {
+    margin-right: 4rem;
+  }
+
+  .crown {
+    position: relative;
+    bottom: 3px;
+  }
+
+  .btn-nav {
+    width: 300px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 6rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(30deg, #ffdb01 0%, #ff851f 30%, #ff3d3d 52%, #ff0f6f 70%, #f0f 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn-nav:hover {
+    background: lightblue;
+  }
+
+  @media screen and (max-width: 1241px) {
+    .navbar {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      margin-top: 20px;
+    }
+  
+    .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links ul {
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+
+    .btn-nav {
+      width: 60%;
+      position: relative;
+      left: 0rem;
+      bottom: 6rem;
+    }
+
+    .gem {
+      margin-right: 10rem;
+      position: relative;
+      top: 0rem;
+    }
+
+    #hamburger-menu {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1019px) {
+    .navbar {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      margin-top: 20px;
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links ul {
+      position: absolute;
+      top: 60px;
+      left: 140px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: center;
+      border: 1px solid lightgray;
+      padding: 2rem;
+      border-radius: 8px;
+      z-index: 1;
+      background-color: whitesmoke;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .nav-links ul:hover {
+      color: lightblue;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+
+    .btn-nav {
+      width: 60%;
+      position: relative;
+      left: 0rem;
+      bottom: 6rem;
+    }
+
+    #hamburger-menu {
+      position: absolute;
+      top: 20px;
+      right: 100px;
+      width: 40px;
+      height: 30px;
+      display: block;
+      border: none;
+      padding: 0px;
+      margin: 20px;
+      background: linear-gradient(
+        to bottom, 
+        #3D0E61, #3D0E61 20%, 
+        white 20%, white 40%, 
+        #3D0E61 40%, #3D0E61 60%, 
+        white 60%, white 80%, 
+        #3D0E61 80%, #3D0E61 100%
+      );
+  }
+
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      display: none;
+      margin-top: 20px;
+    }
+  
+    .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links ul {
+      position: absolute;
+      top: -40px;
+      left: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: center;
+      border: 1px solid lightgray;
+      padding: 2rem;
+      border-radius: 8px;
+      z-index: 1;
+      background-color: whitesmoke;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+
+    .btn-nav {
+      width: 60%;
+      position: relative;
+      left: 7rem;
+      bottom: 6rem;
+    }
+
+    .gem {
+      position: relative;
+      top: -6rem;
+      left: 8rem;
+      width: 60%;
+     }    
+    
+  }
+
+  @media screen and (max-width: 625px) {
+    .gem {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .logo {
+     position: relative;
+     right: 5rem;
+    }
+ 
+    #hamburger-menu {
+     position: absolute;
+     right: 40px;
+    }
+ 
+    .btn-nav {
+     width: 40%;
+     position: relative;
+     left: 0rem;
+     top: -6rem;
+   }
+ 
+   .nav-links ul {
+     position: absolute;
+     top: -50px;
+     left: 60px;
+     display: flex;
+     flex-direction: column;
+     gap: 0px;
+     align-items: center;
+     border: 1px solid lightgray;
+     padding: 2rem;
+     border-radius: 8px;
+     z-index: 1;
+     background-color: whitesmoke;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+     
+   }
+  
+
+  @media screen and (max-width: 375px) {
+   .logo {
+    position: relative;
+    right: 5rem;
+   }
+
+   #hamburger-menu {
+    position: absolute;
+    right: 40px;
+   }
+
+   .btn-nav {
+    width: 40%;
+    position: relative;
+    left: 0rem;
+    top: -6rem;
+  }
+
+  .nav-links ul {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 2rem;
+    border-radius: 8px;
+    z-index: 1;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+    
+  }
+
+  
+
+  
