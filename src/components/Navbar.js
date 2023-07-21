@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Add more nav links for other pages */}
         </ul>
       </div>
-      <Link to="https://hex.com/" target="_blank" rel="noreferrer noopener"><button className="btn-nav gem">#1 CRYPTO <span className="crown">👑</span></button></Link>
+      <Link to="/hex"><button className="btn-nav gem">#1 CRYPTO <span className="crown">👑</span></button></Link>
       <div className={`mobile-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
       <label id="hamburger-menu">
         

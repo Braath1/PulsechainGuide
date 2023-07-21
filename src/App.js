@@ -19,6 +19,8 @@ import TrezorTx from './components/TrezorTx';
 import ConnectTrezor from './components/ConnectTrezor';
 import CoinbaseMetamask from './components/CoinbaseMetamask';
 import MetamaskSwap from './components/MetamaskSwap';
+import Hex from './components/Hex';
+import HexArticle from './components/HexArticle';
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
         <Route path="/coinbase" element={<Coinbase />} />
         <Route path="/coinbase-metamask" element={<CoinbaseMetamask />} />
         <Route path="/metamask-swap" element={<MetamaskSwap />} />
+        <Route path="/hex" element={<Hex />} />
+        <Route path="/hex-article" element={<HexArticle />} />
         {/* Add more routes for other pages */}
       </Routes>
     </Router>

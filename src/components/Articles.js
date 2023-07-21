@@ -16,6 +16,7 @@ import PIC12 from '../images/trezor70.png';
 import PIC13 from '../images/cb.png';
 import PIC16 from '../images/cb11.png';
 import PIC17 from '../images/cb45.png';
+import PIC18 from '../images/stake5.png';
 import Footer from './Footer';
 import './Articles.css';
 
@@ -47,6 +48,9 @@ const Home = () => {
       <a href="/coinbase" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC13} caption="Guide: How to Buy On Coinbase Exchange" /></a>
       <a href="/coinbase-metamask" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC16} caption="Send Tokens From Coinbase to Metamask" /></a>
       <a href="/metamask-swap" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC17} caption="How to Swap Tokens On Metamask" /></a>
+      </div>
+      <div className="polaroid">
+      <a href="/hex" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC18} caption="Guide: How to Mine HEX" /></a>
       </div>
       <Footer />
     </div>
