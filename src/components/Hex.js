@@ -210,9 +210,10 @@ This is an extreme example but the reason for showing this is to focus on the mi
 <Polaroid imageSrc={PIC27} caption="HEX From Pulsechain Balance" />
 </div>
 <div className="content">
-<span className="bold"></span> If you do not know how to swap tokens and want Pulsechain HEX, then click the button below for a guide. Just use HEX as the token instead of PEPE.
+<span className="bold"></span> If you do not know how to swap tokens and want Pulsechain HEX, then click the button below for a guide. Just use HEX as the token instead of PEPE. If you have a HEX miner then you need to read the guide on how to mint Hedron.
 </div>
 <a href="/plsx"><button className="btn">How to Swap Tokens</button></a>
+<a href="/hedron"><button className="btn">How to Mint Hedron</button></a>
 <div className="content">
 <span className="bold">Disclaimer:</span>
 The information provided here is for informational purposes only and should not be considered financial or investment advice. Cryptocurrency transactions involve risks, and individuals should conduct their own research and exercise caution when using cryptocurrency exchange platforms.

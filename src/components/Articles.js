@@ -17,6 +17,8 @@ import PIC13 from '../images/cb.png';
 import PIC16 from '../images/cb11.png';
 import PIC17 from '../images/cb45.png';
 import PIC18 from '../images/stake5.png';
+import PIC19 from '../images/hedron.png';
+import PIC20 from '../images/icsa7.png';
 import Footer from './Footer';
 import './Articles.css';
 
@@ -51,6 +53,8 @@ const Home = () => {
       </div>
       <div className="polaroid">
       <a href="/hex" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC18} caption="Guide: How to Mine HEX" /></a>
+      <a href="/hedron" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC19} caption="Guide: How to Mint Hedron" /></a>
+      <a href="/icosa" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC20} caption="Guide: How to Mine Hedron & Icosa" /></a>
       </div>
       <Footer />
     </div>

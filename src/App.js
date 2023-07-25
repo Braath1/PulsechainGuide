@@ -21,6 +21,8 @@ import CoinbaseMetamask from './components/CoinbaseMetamask';
 import MetamaskSwap from './components/MetamaskSwap';
 import Hex from './components/Hex';
 import HexArticle from './components/HexArticle';
+import Hedron from './components/Hedron';
+import Icosa from './components/Icosa';
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
         <Route path="/metamask-swap" element={<MetamaskSwap />} />
         <Route path="/hex" element={<Hex />} />
         <Route path="/hex-article" element={<HexArticle />} />
+        <Route path="/hedron" element={<Hedron />} />
+        <Route path="/icosa" element={<Icosa />} />
         {/* Add more routes for other pages */}
       </Routes>
     </Router>
