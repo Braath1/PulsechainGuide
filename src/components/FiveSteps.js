@@ -8,6 +8,7 @@ import PIC2 from '../images/pls.png';
 import PIC3 from '../images/plsx20.png';
 import PIC4 from '../images/prc20.png';
 import PIC5 from '../images/buy.png';
+import PIC6 from '../images/psychology.jpg';
 
 const FiveSteps = () => {
   return (
@@ -18,6 +19,10 @@ const FiveSteps = () => {
       <h2>5-step guide to get started with Pulsechain!</h2>
        </div>
         {/* Rest of the content */}
+        <div className="content">
+<span className="bold">Important: Read Before You Start</span>
+</div>
+<a href="/start" target="_blank" rel="noreferrer noopener"><Polaroid imageSrc={PIC6} caption="Must Read: How to Win" /></a>
 <div className="content">
 <span className="bold">Step 1: Download and Set Up Metamask Wallet</span>
 </div>

@@ -23,6 +23,7 @@ import Hex from './components/Hex';
 import HexArticle from './components/HexArticle';
 import Hedron from './components/Hedron';
 import Icosa from './components/Icosa';
+import Start from './components/Start';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route path="/hex-article" element={<HexArticle />} />
         <Route path="/hedron" element={<Hedron />} />
         <Route path="/icosa" element={<Icosa />} />
+        <Route path="/start" element={<Start />} />
         {/* Add more routes for other pages */}
       </Routes>
     </Router>

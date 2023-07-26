@@ -215,6 +215,9 @@ This is an extreme example but the reason for showing this is to focus on the mi
 <a href="/plsx"><button className="btn">How to Swap Tokens</button></a>
 <a href="/hedron"><button className="btn">How to Mint Hedron</button></a>
 <div className="content">
+<a href="/hex-article"><h5>Click here for more info about HEX</h5></a>
+</div>
+<div className="content">
 <span className="bold">Disclaimer:</span>
 The information provided here is for informational purposes only and should not be considered financial or investment advice. Cryptocurrency transactions involve risks, and individuals should conduct their own research and exercise caution when using cryptocurrency exchange platforms.
 </div>
